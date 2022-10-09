@@ -1,5 +1,5 @@
 ## Project Title 
-* Retail Customer Segmentation
+Retail Customer Segmentation
 
 ## Problem Statment
 * This project  is about a Superstore which caters to a vast variety of customers. Superstore’s manager has noticed that there are diminishing returns from the existing marketing strategies. Sales from the last 2 quarters have hit a plateau which has started to concern the store manager. 
@@ -21,21 +21,22 @@
 * Matplotlib
 * Seaborn
 
-## 
+## Approach use for Customer Segmentation
+Here RFM Segmentation is used for Customer Segementation
+* Recency: How recently has the customer made a transaction with us
+* Frequency: How frequent is the customer in ordering/buying some product from us
+* Monetary: How much does the customer spend on purchasing products from us.
 
+## Rating Customer based upon the RFM score
+* rfm score >4.5 : Top Customer
+* 4.5 > rfm score > 4 : High Value Customer
+* 4>rfm score >3 : Medium value customer
+* 3>rfm score>1.6 : Low-value customer
+* rfm score<1.6 :Lost Customer
 
-## Where to download the data?
-* Dataset can be downloaded [here](https://exchangelabsgmu-my.sharepoint.com/:f:/g/personal/jyang43_masonlive_gmu_edu/En-TZLF4UVBAqyCtiyQOYM0BU3leFL4TSCJd18xoIXovGA?e=b3LTcq). 
+## Final Output
+![clonerepo view](output.png)
 
-**Note**: Please contact the author Jingchao Yang (jyang43@gmu.edu) for direct access if link expires.
-* Place the dataset in the data folder before running the code
-
-**Note**: All data has been preprocessed to csv format, raw data can be accessed from [weather underground](https://www.wunderground.com/) and [GeoTab](https://data.geotab.com/weather/temperature). Toolset for preprocessing raw data can be accessed upon request.
-
-## How to get the results?
-### Category of models
-* [multistep_lstm](multistep_lstm) indludes python files for LSTM model building and training
-* [multistep_others](multistep_others) includes comparison model ARIMA and XGBoost
 
 ### 1. LSTM model:
 To run our LSTM model, go to the [directory](multistep_lstm) and use the command:
