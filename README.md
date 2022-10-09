@@ -38,6 +38,6 @@ Here RFM Segmentation is used for Customer Segementation
 ![clonerepo view](output.png)
 
 ## Tutorial video <br/>
-[<img src="https://github.com/stccenter/IoT-based-Temperature-Prediction/blob/main/data/view/thumbnail.jpg" width="60%">](https://youtu.be/HIrH0976zrY)
+[<img src="https://github.com/stccenter/IoT-based-Temperature-Prediction/blob/main/data/view/thumbnail.jpg" width="60%">](https://youtu.be/OJ5RH8YoQgQ)
 
 
